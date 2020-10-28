@@ -4,7 +4,6 @@ require 'json'
 
 Data = JSON.parse(File.read('data.json'))
 
-
 class Api < Sinatra::Base
 
   not_found do
